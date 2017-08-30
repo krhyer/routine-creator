@@ -18,10 +18,8 @@ socket.on('CONNECTED', function (data) {
 
 new Vue({
   el: '#app',
-  data: {
-    store
-  },
   router,
+  store,
   template: '<App/>',
   components: { App }
 })

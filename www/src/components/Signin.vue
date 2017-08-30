@@ -42,6 +42,7 @@
     computed: {},
     methods: {
       signin() {
+        debugger
         this.$store.dispatch('signin', this.user)
       }
     },
