@@ -4,6 +4,7 @@ import LandingPage from 'components/LandingPage'
 import Signin from 'components/Signin'
 import Signup from 'components/Signup'
 import Dashboard from 'components/Dashboard'
+import Routine from 'components/Routine'
 
 Vue.use(Router)
 
@@ -25,6 +26,10 @@ export default new Router({
       path: '/dashboard',
       name: 'Dashboard',
       component: Dashboard
+    },{
+      path: '/routine',
+      name: 'Routine',
+      component: Routine
     }
   ]
 })
